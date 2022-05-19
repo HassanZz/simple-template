@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.App {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  position: fixed;
+  z-index: 0;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  background: linear-gradient(180deg, #e1edff 0%, #ffffff 100%);
+}
+.container {
+  position: absolute;
+  width: 1920px;
+  height: 1205px;
+  right: 301px;
+  top: 331px;
+}
+
+.sign-in-form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 10px;
+  position: absolute;
+  width: 769px;
+  height: 537px;
+  left: 301px;
+  top: 205px;
+  background: #f6ffff;
+  border: 1px solid #86d4d4;
+  border-radius: 31px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 24px;
+  width: 737px;
+  height: 505px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  position: relative;
+  flex-grow: 0;
+}
+
+.signin-text {
+  width: 705px;
+  height: 38px;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #015959;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  position: absolute;
+  top: 1px;
+  flex-grow: 0;
+}
+
+.input-text label {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  font-size: 15px;
+  line-height: 18px;
+  color: #015959;
+}
+
+.input-text {
+  position: absolute;
+  left: 32px;
+  top: 94px;
+  width: 705px;
+  height: 83px;
+}
+.input-text input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 9px 16px;
+  gap: 16px;
+  color: #86d4d4;
+  background-color: #f6ffff;
+  border-color: #86d4d4;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 27.71%;
+  bottom: 0%;
+
+  border-radius: 10px;
+}
+::placeholder {
+  width: 585px;
+  height: 42px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #015959;
+
+  opacity: 0.5;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.container {
+  position: relative;
+  left: 1102px;
+  top: 331px;
+  width: 517px;
+  height: 392px;
+}
+
+.input-text input :placeholder {
+  width: 585px;
+  height: 42px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #015959;
+  opacity: 0.5;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.checkbox {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  display: flex;
+  padding: 0px;
+  color: #015959;
+}
+.checkbox input {
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  border: 2px solid;
+}
+.robotdiv {
+  position: absolute;
+  border-radius: 10px;
+  border: 1px solid #1ac7c7;
+  bottom: 45%;
+  left: 30%;
+  height: 60px;
+  width: 280px;
+}
+
+.robotdiv div {
+  position: relative;
+  top: 30%;
+}
+
+.checkbox label {
+  left: 10%;
+  top: 0%;
+}
+
+.form a {
+  position: absolute;
+  bottom: 8%;
+  width: 105px;
+  height: 19px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #015959;
+}
+.submit-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px 16px;
+  position: absolute;
+  width: 280px;
+  height: 60px;
+  left: 228.5px;
+  top: 312px;
+  background: linear-gradient(90deg, #6fdfdf 0%, #00a5a5 94.44%);
+  border-radius: 10px;
+}
+.submit-button div {
+  position: relative;
+  top: 25%;
+  width: 248px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #015959;
+}
+
+.google-logo {
+  position: absolute;
+  bottom: 15%;
+}
+
+.background {
+  position: fixed;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  height: 10%;
+  /* Subtract */
+  background: url(./img/navbar.svg);
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(30%);
+
+  /* filter: blur(20px); */
+}
+nav {
+  position: fixed;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  height: 10%;
+}
+.logo {
+  position: relative;
+  top: 40%;
+}
+
+.home {
+  position: absolute;
+  top: 25%;
+  left: 77%;
+}
+.profile {
+  position: absolute;
+  top: 25%;
+  left: 73%;
+}
+.help {
+  position: absolute;
+  top: 25%;
+  left: 69%;
+}
+
+.sun {
+  position: absolute;
+  top: 25%;
+  left: 65%;
+}
+
+.three {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.footer {
+  position: fixed;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  height: 20%;
+  background: #f6ffff;
+  border: 1px solid #86d4d4;
+}
+
+.footer p {
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #015959;
+}
+
+.social-media {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  right: 45%;
+  width: 10%;
+}
+.telegram {
+  position: absolute;
+  right: 0%;
+}
+.instagram {
+  left: 0%;
+  position: absolute;
+}
+
+.under-footer {
+  position: absolute;
+  bottom: 15%;
+  right: 42%;
+  width: 300px;
+}
+
+.under-footer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  display: inline-block;
+  align-items: center;
+
+  color: #015959;
+}
+
+.c {
+  position: absolute;
+  left: 0%;
+  top: 27%;
+}
