@@ -6,15 +6,18 @@ import { ReactComponent as C } from "./img/C.svg";
 const Footer = () => {
   return (
     <div className="footer">
-      <p>please don't trust fake accounts</p>
+      <p className="text-style1 footer-p1">
+        please don't trust fake accounts. For more info, please follow our
+        official channels!
+      </p>
       <div className="social-media">
-        <span className="telegram">
+        <span className="social-media-items">
           <Telegram></Telegram>
         </span>
-        <span className="instagram">
-          <Instagram></Instagram>
+        <span className="social-media-items">
+          <Instagram className="insta"></Instagram>
         </span>
-        <span className="whatsapp">
+        <span className="social-media-items">
           <Whatsapp></Whatsapp>
         </span>
       </div>
@@ -22,7 +25,6 @@ const Footer = () => {
         <span className="c">
           <C></C>
         </span>
-
         <p>2021 BM CO. All Rights Reserved</p>
       </div>
     </div>

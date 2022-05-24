@@ -1,0 +1,351 @@
+@media (max-width: 480px) {
+  .app-form {
+    width: 40%;
+    height: 442px;
+    padding-right: 15px;
+    margin-right: 15px;
+  }
+  .woman-img {
+    width: 0px;
+    height: 0px;
+  }
+  .navbar-items {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+  }
+  .logo {
+    position: absolute;
+    top: 20%;
+    transform: scale(0.5);
+  }
+  .social-media-items {
+    border: 4px;
+    padding: 5px;
+    transform: scale(0.8);
+  }
+  .navbar-item {
+    transform: scale(0.5);
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    padding: 2px;
+  }
+  .right-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    width: 150px;
+  }
+  .background {
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    height: 57px;
+    background: url(./img/navbar.svg);
+    background-position: 0%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(30%);
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    height: 57px;
+  }
+  .container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 442px;
+    align-items: center;
+    justify-content: center;
+  }
+  .app-form {
+    width: 90%;
+    justify-content: center;
+    height: 442px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .signin-text {
+    order: 1;
+    width: 100%;
+    height: 23px;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    color: #015959;
+    align-self: stretch;
+    top: 1px;
+  }
+
+  .input-text {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    left: 32px;
+    top: 94px;
+    width: 95%;
+    height: 40px;
+  }
+  .sign-in-form {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 10px;
+    position: absolute;
+    width: 90%;
+    height: 442px;
+    background: #f6ffff;
+    border: 1px solid #86d4d4;
+    border-radius: 15.5px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 16px;
+    gap: 24px;
+    width: 95%;
+    height: 430px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .navbar-items {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: ce;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .navbar-item {
+    border: 0px;
+    padding: 0px;
+  }
+  .logo {
+    position: absolute;
+    top: -15%;
+  }
+
+  .robot-checkbox {
+    order: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #1ac7c7;
+    height: 40px;
+    width: 95%;
+  }
+  .robot-checkbox p {
+    width: 55px;
+    height: 12px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    padding-left: 15px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #015959;
+    margin: 0px;
+  }
+
+  .form a {
+    order: 10;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #015959;
+  }
+  .submit-button {
+    order: 6;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 95%;
+    height: 30px;
+    background: linear-gradient(90deg, #6fdfdf 0%, #00a5a5 94.44%);
+    border-radius: 10px;
+  }
+  .google-logo {
+    order: 9;
+    transform: scale(0.5);
+  }
+  /* .logo {
+    position: relative;
+    top: 40%;
+  } */
+
+  .footer {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    height: 178px;
+    background: #f6ffff;
+    border: 1px solid #86d4d4;
+  }
+
+  .footer-p1 {
+    font-family: "IRANSans";
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 15px;
+    width: 100%;
+    color: #015959;
+    align-self: center;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 270px;
+    height: 50px;
+  }
+
+  .social-media-items {
+    border: 4px;
+    padding: 5px;
+    /* transform: scale(0.7); */
+  }
+
+  .under-footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+  }
+  .under-footer p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #015959;
+    border: 2px;
+    padding: 5px;
+  }
+
+  .c {
+    border: 2px;
+    padding: 5px;
+  }
+
+  .captcha {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+    gap: 3px;
+    justify-items: center;
+    align-items: center;
+  }
+  .div-robot-checkbox {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-start;
+  }
+  .text-style3 {
+    /* reCAPTCHA */
+
+    position: absolute;
+    width: 65px;
+    height: 12px;
+    right: 44px;
+    top: calc(50% - 12px / 2);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #015959;
+  }
+
+  .text-style4 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #015959;
+  }
+  .text-style1 {
+    max-width: 344px;
+    height: 40px;
+    font-family: "IRANSans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #015959;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .text-style2 {
+    width: 30px;
+    height: 22px;
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #015959;
+    flex: content;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+  }
+}
